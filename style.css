@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sens-serif;
+}
+
+main {
+  width: 1343px;
+  padding: 70px;
+  min-height: 70vh;
+  align-items: center;
+  margin: 0 auto;
+  color: #182370;
+  background: linear-gradient(to bottom, #e1e3f2, rgba(255, 255, 255, 0.13));
+  z-index: 2;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 4rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: rgb(72, 97, 122);
+  font-weight: normal;
+}
+
+h2 {
+  line-height: 120%;
+  padding: 0.7rem 0rem 1rem 0rem;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+h2 span {
+  color: #284df8;
+}
+
+h3 {
+  padding-top: 1.2rem;
+  padding-bottom: 0.6rem;
+  font-style: bold;
+  line-height: 150%;
+  font-size: 20px;
+}
+
+aside {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 1.5rem;
+  row-gap: 1.5rem;
+  justify-content: center;
+  z-index: 1;
+  position: relative;
+}
+
+aside section:nth-child(2n) {
+  position: relative;
+  top: 2rem;
+}
+
+section {
+  background: white;
+  border: 1px solid rgba(128, 128, 128, 0.4);
+  border-radius: 0.3rem;
+  padding: 1.5rem;
+}
+
+section p {
+  font-size: 13px;
+  line-height: 150%;
+}
+
+section header span {
+  display: inline-block;
+  padding: 0.8rem 0.7rem;
+  border-radius: 10%;
+  font-size: 1rem;
+}
+
+button {
+  margin: 1rem 0rem;
+  padding: 0.7rem 1rem;
+  color: white;
+  background-color: #fe9f27;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+p {
+  color: #13239bd5;
+}
+
+article p {
+  line-height: 180%;
+}
+
+#blue {
+  color: #1d80dd;
+  background-color: #b3daf9;
+}
+
+#green {
+  color: #3e9545;
+  background-color: #c1e2c3;
+}
+
+#orange {
+  color: #f79c32;
+  background-color: #fff7c0;
+}
+
+#purple {
+  color: #81279d;
+  background-color: #dcb7e2;
+}
+
+.object1 {
+  height: 440px;
+  width: 555px;
+  border-top-left-radius: 100%;
+  z-index: -1;
+  position: absolute;
+  bottom: 0%;
+  background: linear-gradient(#d3d8f7d3, rgba(255, 255, 255, 0.486));
+  left: -45px;
+}
+
+.object2 {
+  border-top: 120px solid #d3d8f77e;
+  border-right: 800px solid transparent;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+}
+
+.object3 {
+  border-top: 400px solid #d3d8f73f;
+  border-left: 400px solid transparent;
+  z-index: -5;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.object4 {
+  border-top: 250px solid #d3d8f748;
+  border-left: 250px solid transparent;
+  z-index: -5;
+  position: absolute;
+  top: 250px;
+  right: 220px;
+}
